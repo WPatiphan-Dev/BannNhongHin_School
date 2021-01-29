@@ -1,0 +1,43 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.banner-bg {
+    height: 720px;
+    background: url("https://i.imgur.com/aNnx6HS.jpg") no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    overflow: hidden;
+}
+.banner-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1100px;
+}
+.banner-text {
+    color: white;
+    text-align: center;
+}
+.banner-btn {
+    background: white;
+    display: inline-block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: #333333;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.banner-btn:hover {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+@media screen and (max-width: 480px){
+    .banner-text {
+        padding: 0 2rem;
+    }
+}
